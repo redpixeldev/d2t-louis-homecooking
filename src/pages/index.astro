@@ -6,10 +6,242 @@ import Footer from '@components/Footer.astro';
 
 <Layout title='Astro'>
 	<Header />
-	<div class=''>
-		<h1 class='mt-4 text-xl'>Home</h1>
-		<p>This is the Astro homepage page.</p>
-		<img src='/img/icon-home.png' />
+	<div>
+		<div class="container xl:px-24">
+			<div class='flex flex-col-reverse items-center pb-5 md:flex-row md:gap-12 lg:items-start lg:pb-11 xl:gap-16'>
+				<div class='w-full py-4 md:py-5 lg:w-1/2 xl:pr-10'>
+					<div class='flex'>
+						<div class='bg-brand-green h-auto w-1 shrink-0 md:w-2'></div>
+						<div class='pl-3 md:pl-5'>
+							<span class='text-sm text-black md:text-lg'>Over ons</span>
+							<h1 class='text-brand-green text-2xl font-bold uppercase md:text-3xl'>LOUIS HOMECOOKING</h1>
+						</div>
+					</div>
+					<div class='flex pt-3 md:pt-5'>
+						<div class='bg-brand-orange h-auto w-1 shrink-0 md:w-2'></div>
+						<div class='prose prose-p:text-xs/[14px] prose-p:font-light pl-3 text-black md:pl-5'>
+							<p>
+								Da pore rempor sunt verum imi, endit ipsaped es aute officidendi rerunto es entum que si temporem dolor
+								simus acero del et ea pliquatis venissit est laboratur audae ommolorum ute nimillab ipideri aecaeptas
+								eicatur.
+							</p>
+							<p>
+								Minctur, quid eos antioris vollupis adit ero est enimint perunt lignient dites eles quam sitibusa qui
+								tenia arcient.
+							</p>
+							<p>
+								perunt lignient dites eles quam sitibusa qui tenia arcient. Disquam quatemp orporrovit premquiandit alit
+								ea debitati offic totatem rerunt, ullamendi acearci cum quunt pro beatiatiam, si autemporum dolupta
+								quidem rerora niende simos endaecabo. Ut volesed quamusciis am, ut re, consequi repe ni ducitiora quas
+								eium sereped minctam.
+							</p>
+						</div>
+					</div>
+					<div class='flex gap-3 pt-8'>
+						<div class='w-1/2'>
+							<img
+								src='/img/chef-louis.png'
+								class=''
+								alt=''
+							/>
+							<span class='block pt-2 text-right text-xs font-light text-black'>Chef Louis</span>
+						</div>
+						<div class='w-1/2'>
+							<img
+								src='/img/chef-hannes.png'
+								class=''
+								alt=''
+							/>
+							<span class='block pt-2 text-right text-xs font-light text-black'>Chef Hannes</span>
+						</div>
+					</div>
+				</div>
+				<img
+					src='/img/louis-homecooking.jpg'
+					class='h-[20rem] w-full object-cover object-[50%_30%] md:h-[32rem] lg:w-1/2'
+					alt=''
+				/>
+			</div>
+		</div>
+		<div class="space-y-20">
+			<div class='relative'>
+				<img
+					src='/img/events-image.jpg'
+					class='inset-y-0 left-0 h-64 w-full object-cover sm:absolute sm:h-72 sm:w-[48%]'
+					alt=''
+				/>
+				<div class='container flex items-center sm:h-80 xl:h-72'>
+					<div
+						class='ml-auto flex items-center py-5 sm:w-1/2 sm:pr-3 sm:pl-8 md:py-8 lg:pr-8 lg:pl-14 xl:pr-16 xl:pl-20'>
+						<div>
+							<div class='flex'>
+								<div class='bg-brand-green h-auto w-1 shrink-0 md:w-2'></div>
+								<div class='pl-3 md:pl-5'>
+									<span class='text-sm text-black md:text-lg'>Onze hoofdactiviteit</span>
+									<h1 class='text-brand-green text-2xl font-bold uppercase md:text-3xl'>EVENTS</h1>
+								</div>
+							</div>
+							<div class='flex pt-3 md:pt-5'>
+								<div class='bg-brand-orange h-auto w-1 shrink-0 md:w-2'></div>
+								<div class='prose prose-p:text-xs/[14px] prose-p:font-light pl-3 text-black md:pl-5'>
+									<p>
+										Da pore rempor sunt verum imi, endit ipsaped es aute officidendi rerunto es entum que si temporem dolor simus acero del et ea pliquatis venissit est laboratur audae ommolorum ute nimillab ipideri aecaeptas eicatur.
+									</p>
+									<p>
+										Minctur, quid eos antioris vollupis adit ero est enimint perunt lignient dites eles quam sitibusa qui tenia arcient.
+									</p>
+									<p>
+										perunt lignient dites eles quam sitibusa qui tenia arcient. Disquam quatemp orporrovit premquiandit alit ea debitati offic totatem rerunt, ullamendi acearci cum quunt pro beatiatiam, si autemporum dolupta quidem rerora niende simos endaecabo. Ut volesed quamusciis am, ut re, consequi repe ni ducitiora quas eium sereped minctam.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='relative'>
+				<img
+					src='/img/afhaal-image.jpeg'
+					class='inset-y-0 right-0 h-64 w-full object-cover sm:absolute sm:h-72 sm:w-[48%] object-[50%_70%]'
+					alt=''
+				/>
+				<div class='container flex items-center sm:h-80 xl:h-72'>
+					<div class='flex items-center py-5 sm:w-1/2 sm:pr-8 md:py-8 lg:pr-16 xl:pr-32'>
+						<div>
+							<div class='flex'>
+								<div class='bg-brand-green h-auto w-1 shrink-0 md:w-2'></div>
+								<div class='pl-3 md:pl-5'>
+									<span class='text-sm text-black md:text-lg'>Genieten in uw vertrouwde omgeving</span>
+									<h1 class='text-brand-green text-2xl font-bold uppercase md:text-3xl'>AFHAAL</h1>
+								</div>
+							</div>
+							<div class='flex pt-3 md:pt-5'>
+								<div class='bg-brand-orange h-auto w-1 shrink-0 md:w-2'></div>
+								<div class='prose prose-p:text-xs/[14px] prose-p:font-light pl-3 text-black md:pl-5'>
+									<p>
+										Da pore rempor sunt verum imi, endit ipsaped es aute officidendi rerunto es entum que si temporem dolor simus acero del et ea pliquatis venissit est laboratur audae ommolorum ute nimillab ipideri aecaeptas eicatur.
+									</p>
+									<p>
+										Minctur, quid eos antioris vollupis adit ero est enimint perunt lignient dites eles quam sitibusa qui tenia arcient.
+									</p>
+									<p>
+										perunt lignient dites eles quam sitibusa qui tenia arcient. Disquam quatemp orporrovit premquiandit alit ea debitati offic totatem rerunt, ullamendi acearci cum quunt pro beatiatiam, si autemporum dolupta quidem rerora niende simos endaecabo. Ut volesed quamusciis am, ut re, consequi repe ni ducitiora quas eium sereped minctam.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='py-12 sm:py-14 md:py-16 container pr-0 mr-0'>
+			<di class="text-center w-1/2 mx-auto">
+					<span class='text-sm text-black md:text-lg block'>Zonder moeite genieten?</span>
+					<h2 class='text-brand-green text-2xl font-bold uppercase md:text-3xl'>NEEM CONTACT</h2>
+					<p class="text-black pt-5 font-light text-xs/[14px]">Da pore rempor sunt verum imi, endit ipsaped es aute officidendi rerunto es entum que si temporem dolor simus acero del et ea pliquatis venissit est laboratur audae ommolorum ute nimillab ipideri aecaeptas eicatur.</p>
+			</di>
+			<div class='relative overflow-auto'>
+				<div class='flex pr-0 whitespace-nowrap'>
+					<div class='mr-0 flex flex-col md:flex-row md:items-center pr-0 pl-56'>
+						<div class='relative overflow-auto'>
+							<div class='flex flex-col whitespace-nowrap mr-4'>
+								<div class='flex h-[15rem] sm:h-[18rem] md:h-[20rem] shrink-0 gap-4 lg:h-[26rem]'>
+									<img
+										src='/img/gallery-image.jpg'
+										class='h-full w-[20rem] sm:w-[30rem] shrink-0 object-cover lg:w-[40rem] xl:w-[50rem]'
+										alt=''
+									/>
+									<img
+										src='/img/gallery-image.jpg'
+										class='h-full w-[20rem] sm:w-[30rem] shrink-0 object-cover opacity-40 lg:w-[40rem] xl:w-[50rem]'
+										alt=''
+									/>
+									<img
+										src='/img/gallery-image.jpg'
+										class='h-full w-[20rem] sm:w-[30rem] shrink-0 object-cover opacity-40 lg:w-[40rem] xl:w-[50rem]'
+										alt=''
+									/>
+								</div>
+								<div class='relative mt-4 h-2 w-full bg-[#f7dec0]'>
+									<div class='bg-brand-orange absolute inset-y-0 left-0 h-full w-24'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class='container pb-12 sm:pb-14'>
+			<div class='flex flex-col gap-8 sm:flex-row lg:gap-5 xl:gap-24 xl:px-16'>
+				<div class='sm:w-1/3 lg:w-[30%] xl:w-1/4'>
+					<span class='text-sm text-black md:text-lg'>Zonder moeite genieten?</span>
+					<h2 class='text-brand-green text-2xl font-bold uppercase md:text-3xl'>NEEM CONTACT</h2>
+					<div class='space-y-2 pt-6'>
+						<span class='block text-sm text-black'
+							>Ieperstraat 110 <br />
+							8830 Hooglede
+						</span>
+						<div>
+							<a
+								href='tel:+32470593539'
+								class='text-brand-green block text-sm font-bold'
+								>Tel +32 470 59 35 39</a
+							>
+							<a
+								href='mailto:hello@tavolo.be'
+								class='text-brand-green text-sm font-bold'
+								>hello@tavolo.be</a
+							>
+						</div>
+						<span class='text-sm text-black'>BTW BE 0724.913.068</span>
+					</div>
+				</div>
+				<form class='sm:w-2/3 lg:w-[70%] xl:w-3/4'>
+					<div class='flex flex-col gap-4 pb-5 lg:flex-row'>
+						<input
+							type='text'
+							name='name'
+							id='name'
+							placeholder='NAAM*'
+							class='border-brand-green border p-2 text-xs text-black lg:w-1/2'
+						/>
+						<input
+							type='text'
+							name='address'
+							id='address'
+							placeholder='ADRESS*'
+							class='border-brand-green border p-2 text-xs text-black lg:w-1/2'
+						/>
+					</div>
+					<div class='flex flex-col gap-4 pb-5 lg:flex-row'>
+						<input
+							type='text'
+							name='phone'
+							id='phone'
+							placeholder='TELEFOONNUER*'
+							class='border-brand-green border p-2 text-xs text-black lg:w-1/2'
+						/>
+						<input
+							type='email'
+							name='email'
+							id='email'
+							placeholder='EMAIL*'
+							class='border-brand-green border p-2 text-xs text-black lg:w-1/2'
+						/>
+					</div>
+					<textarea
+						name='message'
+						id='message'
+						placeholder='VRAAG OF EXTRA INFORMATIE'
+						class='border-brand-green h-28 w-full border p-2 text-xs text-black'
+					></textarea>
+					<div class='flex justify-end pt-3'>
+						<button class='bg-brand-green px-4 py-1 text-sm text-white uppercase'>VERZENDEN</button>
+					</div>
+				</form>
+			</div>
+		</div>
 	</div>
 	<Footer />
 </Layout>
